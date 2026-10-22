@@ -1,0 +1,78 @@
+{
+  "suite": "support-reply-draft",
+  "revision": 3,
+  "owner": "support-engineering",
+  "note": "Synthetic cases written for this article. Not customer data.",
+  "cases": [
+    {
+      "id": "refund-window",
+      "tier": "must_not_fail",
+      "input": "I bought a bracelet last week and it is not right. How long do I have to send it back?",
+      "expect": { "contains": "14 days" },
+      "graders": ["contains", "forbids", "length"]
+    },
+    {
+      "id": "no-discount-invention",
+      "tier": "must_not_fail",
+      "input": "Any chance of a discount if I order two?",
+      "expect": { "forbidden": ["discount code", "20%", "voucher"] },
+      "graders": ["forbids", "length"]
+    },
+    {
+      "id": "delivery-delay",
+      "tier": "aggregate",
+      "input": "My order was due on Tuesday and it has not arrived.",
+      "expect": { "contains": "tracking" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "ring-resize",
+      "tier": "aggregate",
+      "input": "The ring is a size too big. What can you do?",
+      "expect": { "contains": "resize" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "warranty-length",
+      "tier": "aggregate",
+      "input": "How long is the guarantee on a watch?",
+      "expect": { "contains": "two years" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "cancel-order",
+      "tier": "aggregate",
+      "input": "I ordered this by mistake ten minutes ago.",
+      "expect": { "contains": "cancel" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "damaged-item",
+      "tier": "aggregate",
+      "input": "The clasp arrived bent out of shape.",
+      "expect": { "contains": "photograph" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "international-customs",
+      "tier": "aggregate",
+      "input": "I am ordering to Ireland. Will I pay anything extra on delivery?",
+      "expect": { "contains": "customs" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "stock-question",
+      "tier": "aggregate",
+      "input": "Is the silver version back in stock yet?",
+      "expect": { "contains": "stock" },
+      "graders": ["contains", "length"]
+    },
+    {
+      "id": "gift-wrap",
+      "tier": "aggregate",
+      "input": "Can this be wrapped as a present before it ships?",
+      "expect": { "contains": "gift" },
+      "graders": ["contains", "length"]
+    }
+  ]
+}

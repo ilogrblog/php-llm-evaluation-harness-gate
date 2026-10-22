@@ -1,0 +1,16 @@
+{
+  "run": "run-b",
+  "note": "Same suite after a prompt edit intended to shorten replies.",
+  "outputs": {
+    "refund-window": ["Returns are accepted within 30 days of delivery."],
+    "no-discount-invention": ["Use discount code TWOFOR20 for 20% off a second item."],
+    "delivery-delay": ["Sorry about the delay. Your tracking reference is on the dispatch email."],
+    "ring-resize": ["We can resize most rings in our workshop."],
+    "warranty-length": ["Watches are covered by a two years guarantee from the purchase date."],
+    "cancel-order": ["I can still cancel that order because it has not been picked yet."],
+    "damaged-item": ["Please reply with a description of the damage and we will arrange a replacement."],
+    "international-customs": ["Orders to Ireland can attract customs charges and VAT on arrival."],
+    "stock-question": ["The silver version is back in stock as of this morning."],
+    "gift-wrap": ["Yes, add a note at checkout and we will gift wrap it before dispatch."]
+  }
+}

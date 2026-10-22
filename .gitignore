@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+# A candidate baseline written by accept.php, until a person reviews and moves it.
+suite/*.candidate.json
+suite/*.tmp
+vendor/

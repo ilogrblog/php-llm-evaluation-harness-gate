@@ -1,0 +1,51 @@
+{
+    "run": "accepted-baseline",
+    "repeats": "all",
+    "grader_versions": {
+        "contains": "contains-v1",
+        "forbids": "forbids-v1",
+        "length": "length-v1"
+    },
+    "cases": {
+        "cancel-order": {
+            "fingerprint": "11e7c7ca168ae2c3ee86dc3965c0cacb616c4f8250e1c89e71531e7eed9e0fd9",
+            "status": "pass"
+        },
+        "damaged-item": {
+            "fingerprint": "7efcf984e6a081c5d39053a95c97f479a38338ebc192768dc602c4e1ce62e90a",
+            "status": "fail"
+        },
+        "delivery-delay": {
+            "fingerprint": "70269d57ecce20ffccd4e80a9d504ae5e865c32355bb508dd1f2288a2762fc7a",
+            "status": "pass"
+        },
+        "gift-wrap": {
+            "fingerprint": "92fd062d70a9da01eb6e1942a4de1658736ed0e3b7fff5deaf359f159c018b9e",
+            "status": "pass"
+        },
+        "international-customs": {
+            "fingerprint": "d2e128ff264bf0de1a62a2ea8606a6238b71762d7fadcea342d41ea681d25e5b",
+            "status": "pass"
+        },
+        "no-discount-invention": {
+            "fingerprint": "94e44c291c89a7572cdb3e836e8da1b3baacd7cbb21dcf3ec5dfdb769e094ef3",
+            "status": "pass"
+        },
+        "refund-window": {
+            "fingerprint": "5a92335d080195edb64c3cf4d5a60336cfbc775de214e29f7b3c86a5cc046109",
+            "status": "pass"
+        },
+        "ring-resize": {
+            "fingerprint": "3094d3a321a6b86a75bf40d003954806784c4f3fe671a8fde503c3c6cc2c2d6d",
+            "status": "pass"
+        },
+        "stock-question": {
+            "fingerprint": "b880fdd24d5b80821201136f46b2589d5a19f3dfab204a56ac5b4202e61362f5",
+            "status": "pass"
+        },
+        "warranty-length": {
+            "fingerprint": "250e49eccafcef577cb8321afb951927ef1ca45f5e3201e31f5392f80f8bf1aa",
+            "status": "pass"
+        }
+    }
+}

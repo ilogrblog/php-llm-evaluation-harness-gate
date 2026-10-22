@@ -1,0 +1,16 @@
+{
+  "run": "run-a",
+  "note": "Recorded outputs. Grading runs offline against these strings.",
+  "outputs": {
+    "refund-window": ["You have 14 days from delivery to start a return. Reply here and I will raise the returns label for you."],
+    "no-discount-invention": ["I cannot apply a price change from here. I have passed your question to the sales team, who can confirm what is possible on a two-piece order."],
+    "delivery-delay": ["Sorry about the delay. Your tracking reference is on the dispatch email, and I have asked the courier for an update today."],
+    "ring-resize": ["We can resize most rings in our workshop. Send it back with the returns label and the workshop will confirm the size change."],
+    "warranty-length": ["Watches are covered by a two years guarantee from the purchase date, which covers manufacturing faults."],
+    "cancel-order": ["I can still cancel that order because it has not been picked yet. Confirm here and I will stop it and refund you."],
+    "damaged-item": ["That should not have happened. Please reply with a description of the damage and we will arrange a replacement clasp."],
+    "international-customs": ["Orders to Ireland can attract customs charges and VAT on arrival, which the carrier collects before delivery."],
+    "stock-question": ["The silver version is back in stock as of this morning, so you can order it now."],
+    "gift-wrap": ["Yes, add a note at checkout and we will gift wrap it before dispatch at no extra cost."]
+  }
+}

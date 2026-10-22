@@ -1,0 +1,11 @@
+{
+  "note": "Reviewed like code. The fingerprint is copied here by a person after reviewing a golden-set change; it is never computed at run time.",
+  "suite_fingerprint": "ea4ac4e1453ff22b6d10f7890c23d7a7d45729ca8013cc9f41c1e5d9c81d15bf",
+  "repeats": "all",
+  "min_pass": 7,
+  "grader_versions": {
+    "contains": "contains-v1",
+    "forbids": "forbids-v1",
+    "length": "length-v1"
+  }
+}
